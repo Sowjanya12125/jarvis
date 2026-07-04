@@ -1,0 +1,185 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.85in}
+\addtolength{\textheight}{1.85in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-2pt}]
+\titlespacing{\section}{0pt}{10pt}{8pt}
+
+% Ensure PDF is machine readable / ATS parsable
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-3pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabularx}{0.97\textwidth}[t]{@{}X r@{}}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabularx}\vspace{-9pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabularx}{0.97\textwidth}{@{}X r@{}}
+      \small#1 & #2 \\
+    \end{tabularx}\vspace{-9pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in, itemsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-9pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Sowjanya SK Susarla} \\ \vspace{3pt}
+    \small B.E. Computer Science \& Engineering $\vert$ CBIT, Hyderabad $\vert$ CGPA 8.75/10 \\ \vspace{2pt}
+    \small \href{mailto:kameshwarisowjanya@gmail.com}{kameshwarisowjanya@gmail.com} $\vert$
+    +91-7989218633 $\vert$
+    Hyderabad, India $\vert$
+    \href{https://github.com/Sowjanya12125}{github.com/Sowjanya12125} $\vert$
+    \href{https://www.linkedin.com/in/sowjanya-s-k-susarla-498632308/}{linkedin.com/in/sowjanya-s-k-susarla}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{Computer Science Engineering student with a working foundation across Data Structures \& Algorithms, OOP, Operating Systems, and DBMS, plus hands-on experience building REST-API-driven, modular software systems. Track record of shipping production-grade projects under tight deadlines, comfortable across the full SDLC using Git-based version control, with additional depth in ML pipelines, data engineering, and cybersecurity risk analytics --- from architecting a credit-risk classifier to conducting enterprise-scale security assessments at India Post. Strong analytical, problem-solving orientation.}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=1pt]
+    \small{\item{
+     \textbf{Programming Languages}{: Python (proficient), SQL, JavaScript (basic)} \\
+     \textbf{CS Fundamentals}{: Data Structures \& Algorithms (Arrays, Strings, Stacks, HashMaps, Two Pointers, Sliding Window --- in progress), Object-Oriented Programming (OOP), Operating Systems, Database Management Systems (DBMS)} \\
+     \textbf{Software Engineering}{: REST APIs, Modular Architecture, Git / GitHub, Software Development Lifecycle (SDLC), Reproducible Workflow Design, API Integration} \\
+     \textbf{Data \& Databases}{: SQL, MongoDB (NoSQL), Pandas, NumPy, ETL Pipelines, Matplotlib, Seaborn, Jupyter Notebook} \\
+     \textbf{ML / AI}{: Scikit-learn, TensorFlow, XGBoost, SHAP, Bayesian Inference, Feature Engineering, Classification, Regression, Uncertainty Quantification} \\
+     \textbf{Cybersecurity}{: Security Posture Assessment, Risk Pattern Analysis, Threat Modelling, Probabilistic Risk Frameworks, Anomaly Detection} \\
+     \textbf{Domains}{: Credit Risk Modelling, Financial Analytics, Quantitative Risk, Security Data Analysis}
+    }}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Research Intern --- Security \& Risk Analytics}{}
+{India Post, CEPT, Hyderabad}{Jul 2025}
+\resumeItemListStart
+\resumeItem{Ran an end-to-end security posture assessment on an enterprise-scale networked system, correlating risk signals across 5+ domains to surface non-obvious threat patterns --- applying structured, analytical problem-solving to a live production environment.}
+\resumeItem{Built data integration pipelines that stitched together incomplete, real-time threat feeds, reducing manual analyst triage effort and improving detection latency.}
+\resumeItem{Identified hard limits of rule-based detection logic and authored a technical brief advocating probabilistic models; formally adopted by the team as a reference for ML-driven risk modelling.}
+\resumeItem{Contributed to ML-driven anomaly detection research using behavioural threat-modelling on large-scale network infrastructure.}
+\resumeItem{Delivered findings to 15+ non-technical senior stakeholders, translating statistical risk insights into clear, actionable recommendations.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{ExpenseFlow --- Full-Stack Expense Tracker} $\vert$ \emph{Next.js, TypeScript, Tailwind CSS} $\vert$ \href{https://github.com/Sowjanya12125/expensetracker}{GitHub}}{2026}
+\resumeItemListStart
+\resumeItem{Built a full-stack expense tracking application with Next.js 14 (App Router) and TypeScript, featuring a complete REST API (\texttt{GET/POST/PUT/DELETE}) with server-side validation and a live analytics dashboard.}
+\resumeItem{Designed a repository-pattern data layer decoupling API routes from storage, enabling a one-file swap to Prisma/PostgreSQL without rewriting business logic.}
+\resumeItem{Implemented category-wise donut charts and multi-month spending trend visualizations (Recharts), with type-safe data flow shared end-to-end between API, data layer, and UI components.}
+\resumeItem{Shipped a responsive, accessible UI (Tailwind CSS) with optimistic delete, client-side filtering, and keyboard-navigable focus states; deployed live on Vercel.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Credit Risk \& Loan Default Prediction System} $\vert$ \emph{Python, Scikit-learn, XGBoost, SHAP}}{2025}
+\resumeItemListStart
+\resumeItem{Designed and deployed a modular, object-oriented binary classification pipeline for loan default prediction, achieving 87\% accuracy on held-out test data across 50K+ records.}
+\resumeItem{Engineered 12+ domain-specific features --- debt-to-income ratios, payment history trends, behavioural flags --- boosting model F1-score by \raise.17ex\hbox{$\scriptstyle\sim$}9\% through systematic selection and validation.}
+\resumeItem{Ran comparative evaluation across Logistic Regression, Random Forest, and XGBoost with cross-validation and probability calibration; added SHAP-based explainability to make risk scores auditable.}
+\resumeItem{Built a risk-scoring module that buckets borrowers into Low / Medium / High tiers, directly supporting lending decision logic downstream.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Bayesian Uncertainty Quantification in Valuation Data} $\vert$ \emph{Python, Scikit-learn, NumPy}}{2025}
+\resumeItemListStart
+\resumeItem{Implemented a Bayesian Ridge Regression framework to model parameter uncertainty through posterior distributions, achieving 30--40\% tighter prediction intervals than OLS on sparse data regimes.}
+\resumeItem{Built a reproducible, modular data pipeline that stress-tests model robustness across 10+ noise levels and sparsity conditions; visualised posterior distributions and credible intervals to expose high-epistemic-uncertainty cases deterministic models would mask.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Autonomous AI Agent Prototype} $\vert$ \emph{Python, REST APIs}}{Google AI Agent Day, Jul 2025}
+\resumeItemListStart
+\resumeItem{Led a 4-person team to architect and ship a fully functional, REST-API-integrated autonomous AI agent within a 24-hour deadline, presenting to a panel of industry judges.}
+\resumeItem{Owned the API integration strategy and object-oriented, modular software design --- kept the codebase clean and maintainable under extreme time pressure, following SDLC best practices with Git-based version control.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------HACKATHONS-----------
+\section{Hackathons \& Achievements}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Finalist --- Round 2, ISRO Bharatiya Antariksh Hackathon (National)}}{Jul 2025}
+\resumeItemListStart
+\resumeItem{Advanced to Round 2 among hundreds of nationwide teams; built high-complexity data processing algorithms for large-scale satellite and aerospace datasets and presented to ISRO evaluators.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Chaitanya Bharathi Institute of Technology (CBIT), Hyderabad}{2023 -- 2027}
+{B.E. Computer Science \& Engineering --- CGPA: 8.75 / 10.0}{}
+\resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{Cisco Networking Essentials --- Cisco}{Dec 2025}
+\resumeProjectHeading
+{Ethereum \& Solidity (Blockchain Development)}{Oct 2025}
+\resumeSubHeadingListEnd
+
+\end{document}
